@@ -21,8 +21,8 @@ private:
 		short _watingClients = 0;
 		short _number = 1;
 	};
-public:
 	TicketInfo tickets;
+public:
 	clsQueueLine(string prefix, short ExpectedDuration) {
 		_prefix = prefix;
 		_ExpectedDuration = ExpectedDuration;
